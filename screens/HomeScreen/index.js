@@ -46,11 +46,9 @@ export default  function HomeScreen() {
       <FlatList
         data={Groups}
         renderItem={ data => (
-          <TouchableOpacity>
-            <View>
-              <Card key={data.id}/>
-            </View>
-          </TouchableOpacity>
+          <View>
+            <Card key={data.id}/>
+          </View>
         )}
       />
       <StatusBar style="auto" />

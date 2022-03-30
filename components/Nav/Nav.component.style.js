@@ -15,5 +15,10 @@ export default StyleSheet.create({
       paddingLeft: 20,
       fontWeight: '600',
       color: '#fff',
+    },
+    icon: {
+      alignItems: 'center',
+      display: 'flex',
+      justifyContent: 'center',
     }
 });
